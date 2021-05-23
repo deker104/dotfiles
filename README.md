@@ -25,6 +25,8 @@
 - VK Messanger  
 - Discord  
 - qBittorrent  
+- pyenv  
+- nvm  
 
 ### Other Dependencies:
 
