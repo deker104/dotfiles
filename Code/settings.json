@@ -2,12 +2,9 @@
     "terminal.integrated.fontFamily": "Hack",
     "C_Cpp.default.cppStandard": "c++20",
     "solidity.compileUsingRemoteVersion": "v0.7.6+commit.7338295f",
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
     "workbench.colorTheme": "Solarized Light",
     "workbench.preferredLightColorTheme": "Solarized Light",
     "workbench.colorCustomizations": {
@@ -19,5 +16,7 @@
     },
     "[python]": {
         "editor.formatOnSave": true
-    }
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }

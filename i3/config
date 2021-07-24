@@ -13,7 +13,7 @@ exec --no-startup-id xset m 0 0
 
 #autostart
 exec --no-startup-id hsetroot -center ~/Pictures/wallpaper/haruhi_suzumiya.jpg
-exec --no-startup-id xsettingsd &
+exec --no-startup-id xfsettingsd --deamon --replace
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id thunar --daemon
 
