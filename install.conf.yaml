@@ -16,3 +16,4 @@
     ~/.config/dunst:
     ~/.config/alacritty:
     ~/.config/Code/User/settings.json: Code/settings.json
+    ~/.config/Code/User/snippets/cpp.json: Code/cpp.json

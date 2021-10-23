@@ -5,18 +5,28 @@
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter.notebook.ipynb"
     },
-    "workbench.colorTheme": "Solarized Light",
-    "workbench.preferredLightColorTheme": "Solarized Light",
+    "workbench.colorTheme": "GitHub Dark",
     "workbench.colorCustomizations": {
-        "terminal.ansiBlack": "#fefefe",
+        // "terminal.ansiBlack": "#fefefe",
     },
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2,
         "editor.formatOnSave": true
     },
     "[python]": {
         "editor.formatOnSave": true
     },
+    "[cpp]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "files.autoSave": "afterDelay",
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4 }",
+    "editor.minimap.enabled": false,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }

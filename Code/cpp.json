@@ -1,0 +1,14 @@
+{
+	"Container range bounds": {
+		"prefix": ["all", "range"],
+		"body": "$1.begin(), $1.end()$0"
+	},
+	"Container size": {
+		"prefix": ["sz"],
+		"body": "(int)$1.size()$0"
+	},
+	"Vector of ints": {
+		"prefix": ["vi"],
+		"body": "vector<int>"
+	}
+}
