@@ -9,6 +9,7 @@
     ~/.zshenv:
     ~/.alias.zsh:
     ~/.xsettingsd:
+    ~/.xinitrc:
     ~/Pictures/wallpaper:
     ~/.local/share/fonts/icomoon:
     ~/.config/i3:

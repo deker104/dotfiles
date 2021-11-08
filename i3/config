@@ -13,9 +13,9 @@ exec --no-startup-id xset m 0 0
 
 #autostart
 exec --no-startup-id hsetroot -center ~/Pictures/wallpaper/haruhi_suzumiya.jpg
-exec --no-startup-id xfsettingsd --deamon --replace
-exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-exec --no-startup-id thunar --daemon
+# exec --no-startup-id xfsettingsd --deamon --replace
+# exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+# exec --no-startup-id thunar --daemon
 
 exec --no-startup-id qbittorrent
 exec --no-startup-id telegram-desktop -workdir /home/deker/.local/share/TelegramDesktop/ -autostart
@@ -97,7 +97,7 @@ bindsym $super+Shift+4 move container to workspace 4
 bindsym $super+Shift+5 move container to workspace 5
 bindsym $super+Shift+6 move container to workspace 6
 
-bindsym $super+Shift+r exec --no-startup-id systemctl reboot
+bindsym $super+Shift+r exec --no-startup-id loginctl reboot
 bindsym $super+Shift+c restart
 
 # exit i3

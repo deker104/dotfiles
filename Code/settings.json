@@ -5,7 +5,6 @@
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter.notebook.ipynb"
     },
-    "workbench.colorTheme": "GitHub Dark",
     "workbench.colorCustomizations": {
         // "terminal.ansiBlack": "#fefefe",
     },
@@ -22,11 +21,14 @@
         "editor.formatOnPaste": true,
         "editor.defaultFormatter": "ms-vscode.cpptools"
     },
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
     "files.autoSave": "afterDelay",
     "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4 }",
     "editor.minimap.enabled": false,
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "telemetry.telemetryLevel": "off",
+    "C_Cpp.default.defines": [
+        "LOCAL"
+    ],
+    "liveshare.presence": true
 }

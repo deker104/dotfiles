@@ -13,7 +13,7 @@ general {
 #order += "disk /"
 #order += "disk /home"
 #order += "ethernet enp"
-order += "wireless wlan0"
+order += "wireless wlp1s0"
 order += "volume master"
 order += "battery 0"
 order += "tztime local"
@@ -40,7 +40,7 @@ ethernet enp {
         format_down = "<span background='#88c0d0'>  Disconnected </span>"
 }
 
-wireless wlan0 {
+wireless wlp1s0 {
         format_up = "<span background='#b48ead'>  %essid </span>"
         format_down = "<span background='#b48ead'>  Disconnected </span>"
 }
