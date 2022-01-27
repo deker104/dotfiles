@@ -8,13 +8,12 @@
     ~/.zshrc:
     ~/.zshenv:
     ~/.alias.zsh:
-    ~/.xsettingsd:
-    ~/.xinitrc:
     ~/Pictures/wallpaper:
     ~/.local/share/fonts/icomoon:
     ~/.config/i3:
     ~/.config/i3status:
     ~/.config/dunst:
     ~/.config/alacritty:
+    ~/.config/micro:
     ~/.config/Code/User/settings.json: Code/settings.json
     ~/.config/Code/User/snippets/cpp.json: Code/cpp.json

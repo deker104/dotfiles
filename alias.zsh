@@ -9,4 +9,4 @@ gene(){
 	code . $1.cpp
 }
 
-alias mpv='mpv --audio-file-auto=fuzzy --sub-auto=fuzzy'
+alias mpv='mpv --no-cache --audio-file-auto=fuzzy --hwdec=vaapi --sub-auto=fuzzy'

@@ -1,0 +1,13 @@
+usage: lookup [-h] rpc_url activity address from_block to_block
+
+Lookup interface
+
+positional arguments:
+rpc_url	a http rpc url of a web3 provider
+activity    a token EIP-55 address or `eth` string
+   address a EIP-55 address to scan
+from_block  from which block inclusively
+to_block    to which block inclusively
+
+optional arguments:
+-h, --help  show this help message and exit

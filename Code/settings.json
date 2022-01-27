@@ -1,10 +1,6 @@
 {
     "terminal.integrated.fontFamily": "Hack",
     "C_Cpp.default.cppStandard": "c++20",
-    "solidity.compileUsingRemoteVersion": "v0.7.6+commit.7338295f",
-    "workbench.editorAssociations": {
-        "*.ipynb": "jupyter.notebook.ipynb"
-    },
     "workbench.colorCustomizations": {
         // "terminal.ansiBlack": "#fefefe",
     },
@@ -17,18 +13,37 @@
         "editor.formatOnSave": true
     },
     "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools",
         "editor.formatOnSave": true,
-        "editor.formatOnPaste": true,
-        "editor.defaultFormatter": "ms-vscode.cpptools"
     },
     "files.autoSave": "afterDelay",
     "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4 }",
-    "editor.minimap.enabled": false,
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "telemetry.telemetryLevel": "off",
     "C_Cpp.default.defines": [
         "LOCAL"
     ],
-    "liveshare.presence": true
+    "workbench.colorTheme": "GitHub Dark",
+    "cph.general.defaultLanguage": "cpp",
+    "cph.language.cpp.SubmissionCompiler": "GNU G++20 11.2.0 (64 bit, winlibs)",
+    "cph.language.cpp.Args": "-g -Wall -Wextra -Wconversion -fsanitize=undefined,address -std=c++20 -DLOCAL",
+    "cph.general.defaultLanguageTemplateFileLocation": "/home/deker/Code/template.cpp",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.tools":[
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-shell-escape",
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-pdf",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ],
+            "env": {}
+        }
+    ]
 }

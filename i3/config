@@ -12,11 +12,15 @@ exec --no-startup-id setxkbmap -layout us,ru -option grp:alt_shift_toggle
 exec --no-startup-id xset m 0 0
 
 #autostart
+exec --no-startup-id xfsettingsd
+exec --no-startup-id numlockx
+exec --no-startup-id dunst
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+exec --no-startup-id thunar --daemon
 exec --no-startup-id hsetroot -center ~/Pictures/wallpaper/haruhi_suzumiya.jpg
-# exec --no-startup-id xfsettingsd --deamon --replace
-# exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-# exec --no-startup-id thunar --daemon
+exec --no-startup-id /usr/lib/kdeconnectd &
 
+exec --no-startup-id nm-applet
 exec --no-startup-id qbittorrent
 exec --no-startup-id telegram-desktop -workdir /home/deker/.local/share/TelegramDesktop/ -autostart
 exec --no-startup-id vk
@@ -119,10 +123,22 @@ bar {
     background #2f343f
     statusline #2f343f
     separator #4b5262
+
+    # focused_workspace       #2f343f #bf616a #d8dee8
+    # active_workspace        #2f343f #2f343f #d8dee8
+    # inactive_workspace      #2f343f #2f343f #d8dee8
+    # urgent_workspacei       #2f343f #ebcb8b #2f343f
   }
   status_command i3status
   position top
   height 22
 }
+
+# client.focused              #bf616a #2f343f #d8dee8 #bf616a #d8dee8
+# client.focused_inactive     #2f343f #2f343f #d8dee8 #2f343f #2f343f
+# client.unfocused            #2f343f #2f343f #d8dee8 #2f343f #2f343f
+# client.urgent               #2f343f #2f343f #d8dee8 #2f343f #2f343f
+# client.placeholder          #2f343f #2f343f #d8dee8 #2f343f #2f343f
+# client.background           #2f343f
 
 for_window [class=".*"] border pixel 4
